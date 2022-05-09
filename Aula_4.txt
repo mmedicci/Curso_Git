@@ -1,0 +1,171 @@
+    1  ls
+    2  ls-a
+    3  ls -a
+    4  ls ..
+    5   pwd
+    6  cd Desktopo
+    7  cd Desktop
+    8  pwd
+    9  cd ..
+   10  cd Desktop
+   11  cd 
+   12  cd D
+   13  cd D
+   14  cd Desktop
+   15  cd D
+   16  mkdir Comandos
+   17  ls
+   18  cd Comandos
+   19  mkdir pasta nova
+   20  ls
+   21  mkdir "pasta nova"
+   22  ls
+   23  mkdir -p new/old
+   24  ls new
+   25  rm -r nova pasta
+   26  ls
+   27  rm -r new
+   28  ls
+   29  rm -r pasta nova
+   30  ls
+   31  mv "pasta nova" pasta_nova
+   32  ls
+   33  mkdir new
+   34  ls
+   35  mv new pasta_nova
+   36  ls
+   37  las pasta_nova
+   38  ls pasta_nova
+   39  cd..
+   40  cd ..
+   41  cd Comandos/
+   42  touch arquivo.txt
+   43  ls
+   44  cp arquivo.txt pasta_nova
+   45  ls
+   46  ls pasta_nova
+   47  echo "mensagem"
+   48  help cd
+   49  help ls
+   50  clear
+   51  history
+   52   clear
+   53  git config --global user.name 'Maria Medicci'
+   54  git config --global user.email 'mmedicci@gmail.com'
+   55  git config user.name
+   56  cd Desktop/
+   57  mkdir Curso_Git
+   58  ls
+   59  git config user,name
+   60  git config user.name
+   61  git init
+   62  git status
+   63  echo '#Aprendendo usar o Git' > readme.md
+   64  git status
+   65  cd Curso_Git/
+   66  cd ..
+   67  ls
+   68  rm -r readme.md
+   69  ls
+   70  cd Curso_Git/
+   71  git config user,name
+   72  git config user.name
+   73  git init
+   74  git status
+   75  echo '#Aprendendo usar o Git' > readme.md
+   76  git status
+   77  git add readme.md
+   78  git status
+   79  git commit -m 'Commit inicial'
+   80  git status
+   81  echo '##Aula 1' >> readme.md
+   82  git status
+   83  echo "Maria Medicci' > participantes.txt
+   84  cd
+   85  gt status
+   86  clear
+   87  git status
+   88  cd Desktop
+   89  cd Curso_git/
+   90  git status
+   91  echo 'mmedicci' > participantes.txt
+   92  git status
+   93   git add .
+   94  git status
+   95  git restores --staged participantes.txt
+   96  git status
+   97  git restore --staged participantes.txt
+   98  git status
+   99  git add participantes.txt
+  100  git status
+  101  git restore --staged .
+  102  git status
+  103  git commit -am 'Alteração no readme'
+  104  git status
+  105  git add participantes.txt
+  106  git status
+  107  git commit -m 'Adicionado participantes.txt'
+  108  git status
+  109  history > Aula_3.txt
+  110  git status
+  111  git add .
+  112  git commit -m 'Comandos da Aula_3'
+  113  git status
+  114  cd Desktop/Curso_Git/
+  115  git log
+  116  git log
+  117  cd Desktop/Curso_Git/
+  118  got log --pretty=oneline
+  119  git log --pretty=oneline
+  120  git log --stat
+  121  git log -p
+  122  git log --pretty=oneline -2
+  123  git log --since=2.minutes
+  124  git log --since=20.minutes
+  125  git log --since=1.day
+  126  git log --author='Maria Medicci'
+  127  git status
+  128  touch teste
+  129  git add teste
+  130  git status
+  131  git commit -m 'Commit de teste'
+  132  git log
+  133  git reset --soft HEAD~
+  134  git log
+  135  git status
+  136  git commit -m 'Commit de teste'
+  137  git log
+  138  git reset --hard
+  139  git log
+  140  git reset --hard HEAD~
+  141  git log
+  142  git status
+  143  git log --pretty=oneline
+  144  git checkout HEAD~~
+  145  git status
+  146  git log
+  147  ls
+  148  git checkout master
+  149  git log
+  150  clear
+  151  mkdir .vscode
+  152  touch cof.tst .vscode/
+  153  ls
+  154  ls ..
+  155  ls .vscode
+  156  mv cof.txt .vscode/
+  157  mv cof.tst .vscode/
+  158  ls .vscode
+  159  ls
+  160  ls -a
+  161  git status
+  162  echo '.vscode/' > .gitignore
+  163  git status
+  164  touch pessoal.conf
+  165  git status
+  166  echo 'pessoal.conf' >> .gitignore
+  167  git status
+  168  git add .gitignore
+  169  git commit -m 'Adicionado arquivo .gitignore'
+  170  git status
+  171  history > Aula_4.txt
