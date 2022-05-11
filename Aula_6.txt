@@ -1,0 +1,236 @@
+    1  ls
+    2  ls-a
+    3  ls -a
+    4  ls ..
+    5   pwd
+    6  cd Desktopo
+    7  cd Desktop
+    8  pwd
+    9  cd ..
+   10  cd Desktop
+   11  cd 
+   12  cd D
+   13  cd D
+   14  cd Desktop
+   15  cd D
+   16  mkdir Comandos
+   17  ls
+   18  cd Comandos
+   19  mkdir pasta nova
+   20  ls
+   21  mkdir "pasta nova"
+   22  ls
+   23  mkdir -p new/old
+   24  ls new
+   25  rm -r nova pasta
+   26  ls
+   27  rm -r new
+   28  ls
+   29  rm -r pasta nova
+   30  ls
+   31  mv "pasta nova" pasta_nova
+   32  ls
+   33  mkdir new
+   34  ls
+   35  mv new pasta_nova
+   36  ls
+   37  las pasta_nova
+   38  ls pasta_nova
+   39  cd..
+   40  cd ..
+   41  cd Comandos/
+   42  touch arquivo.txt
+   43  ls
+   44  cp arquivo.txt pasta_nova
+   45  ls
+   46  ls pasta_nova
+   47  echo "mensagem"
+   48  help cd
+   49  help ls
+   50  clear
+   51  history
+   52   clear
+   53  git config --global user.name 'Maria Medicci'
+   54  git config --global user.email 'mmedicci@gmail.com'
+   55  git config user.name
+   56  cd Desktop/
+   57  mkdir Curso_Git
+   58  ls
+   59  git config user,name
+   60  git config user.name
+   61  git init
+   62  git status
+   63  echo '#Aprendendo usar o Git' > readme.md
+   64  git status
+   65  cd Curso_Git/
+   66  cd ..
+   67  ls
+   68  rm -r readme.md
+   69  ls
+   70  cd Curso_Git/
+   71  git config user,name
+   72  git config user.name
+   73  git init
+   74  git status
+   75  echo '#Aprendendo usar o Git' > readme.md
+   76  git status
+   77  git add readme.md
+   78  git status
+   79  git commit -m 'Commit inicial'
+   80  git status
+   81  echo '##Aula 1' >> readme.md
+   82  git status
+   83  echo "Maria Medicci' > participantes.txt
+   84  cd
+   85  gt status
+   86  clear
+   87  git status
+   88  cd Desktop
+   89  cd Curso_git/
+   90  git status
+   91  echo 'mmedicci' > participantes.txt
+   92  git status
+   93   git add .
+   94  git status
+   95  git restores --staged participantes.txt
+   96  git status
+   97  git restore --staged participantes.txt
+   98  git status
+   99  git add participantes.txt
+  100  git status
+  101  git restore --staged .
+  102  git status
+  103  git commit -am 'Alteração no readme'
+  104  git status
+  105  git add participantes.txt
+  106  git status
+  107  git commit -m 'Adicionado participantes.txt'
+  108  git status
+  109  history > Aula_3.txt
+  110  git status
+  111  git add .
+  112  git commit -m 'Comandos da Aula_3'
+  113  git status
+  114  cd Desktop/Curso_Git/
+  115  git log
+  116  git log
+  117  cd Desktop/Curso_Git/
+  118  git log
+  119  clear
+  120  git log -2
+  121  git log -p -2
+  122  git log --pretty=online -2
+  123  git log --pretty=oneline -2
+  124  git log -p -2
+  125  git log -2
+  126  git log --pretty=oneline -2
+  127  git log --pretty=oneline -4
+  128  clear
+  129  git branch
+  130  git checkout -b feature
+  131  git branch
+  132  touch nova_feature
+  133  git status
+  134  git add nova_feature
+  135  git commit -m 'Adicionando nova feature'
+  136  git log
+  137   git checkout master
+  138  git status
+  139  git log
+  140  touch continuando_master
+  141  git add continuando_master
+  142  git commit -m 'Adicionado continuacao na master'
+  143  git log
+  144  git checkout feature
+  145  git log
+  146  git checkout -b feature2
+  147  git log
+  148  git checkout -b feature 2 master
+  149  git checkout -b feature3 master
+  150  git log
+  151  git checkout feature
+  152  git checkout master
+  153  git checkout feature3
+  154  git checkout master
+  155  git branch -d feature3
+  156  git branch -d feature2
+  157  git checkout feature
+  158  git branch -d feature2
+  159  git checkout master
+  160  clear
+  161  cd Desktop/Curso_Git/
+  162  git checkout feature
+  163  git log --pretty=online --graph
+  164  git log --pretty=online --graph
+  165  git log --pretty=oneline --graph
+  166  git merge master
+  167  cd Desktop/Curso_Git/
+  168  git merged master
+  169  git merge master
+  170  git log
+  171  git log --pretty=online --graph
+  172  git log --pretty=oneline --graph
+  173  clear
+  174  ls
+  175  dir
+  176  cd Destktop
+  177  cd Desktop
+  178  cd..
+  179  cd ..
+  180  cd Desktop
+  181  ls
+  182  dir
+  183  pdw
+  184  pwd
+  185  git help
+  186  cd Comandos
+  187  git init
+  188  dir
+  189  git status
+  190  cd ..
+  191  mkdir toti
+  192  cd toti/
+  193  dir
+  194  git init
+  195  git add arquivo.rtf
+  196  touch arquivo.rtf
+  197  git add arquivo.rtf
+  198  git status
+  199  git commit -m 'correcao de layout'
+  200  git status
+  201  git status
+  202  git log
+  203  git log --pretty=oneline
+  204  git status
+  205  git commit -m 'nova estrutura'
+  206  git status
+  207  git commit -m 'nova estrutura'
+  208  git log
+  209  git status
+  210  dir
+  211  cd Desktop/Curso_Git
+  212  git log
+  213  git status
+  214  git commit
+  215  git reset --hard HEAD
+  216  git reset --hard HEAD~~
+  217  git log --pretty=oneline --graph
+  218  git rebase master
+  219  git log --pretty=oneline --graph
+  220  clear
+  221  cd..
+  222  cd ..
+  223  cd ..
+  224  cd Desktop/Curso_Git
+  225  git config --global alias.logpg 'log --pretty=oneline --graph'
+  226  git logpg
+  227  git config alias.CAM 'commit -am '
+  228  git CAM
+  229  git tag
+  230  git tag -a v0.1 -m 'Até Aula 5'
+  231  git logpg
+  232  git checkout master
+  233  git rebase feature
+  234  git logpg
+  235  git tag
+  236  history > Aula_6.txt
